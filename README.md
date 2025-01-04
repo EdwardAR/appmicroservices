@@ -39,3 +39,18 @@ Consulta del inventario: El usuario puede consultar los productos disponibles. E
 Creación de un pedido: El usuario crea un pedido seleccionando los productos del inventario. El sistema verifica que los productos estén disponibles y, si es así, crea el pedido, descontando las cantidades correspondientes en el inventario.
 
 Consulta de pedidos previos: El usuario puede ver el estado de sus pedidos anteriores.
+
+microservices-app/
+├── api-gateway/
+│   └── server.js
+├── user-service/
+│   ├── server.js
+│   └── model.js
+├── order-service/
+│   ├── server.js
+│   └── model.js
+├── inventory-service/
+│   ├── server.js
+│   └── model.js
+├── docker-compose.yml
+└── .env
